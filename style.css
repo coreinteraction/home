@@ -69,8 +69,8 @@ a:hover {
 
 /* line 11, ../sass/_type.scss */
 h1 {
-  font-size: 0.7em;
-  line-height: 1.5em;
+  font-size: 1.2em;
+  line-height: 1.6em;
   padding-top: 0.5em;
   font-weight: normal;
 
@@ -83,6 +83,7 @@ h2 {
   font-size: 1.2em;
   line-height: 1.6em;
   font-weight: normal;
+ margin-top: -0.3em;
 
 }
 
@@ -205,16 +206,14 @@ p {
     width: 100%;
     border-bottom: 1px solid black;
     padding: 5%;
-    font-size: 1.6em;
-  line-height: 1.2em;
+
   }
 }
 @media screen and (max-width: 568px) {
   /* line 10, ../sass/_sub.scss */
   .left-col {
     padding: 8%;
-    font-size: 1.6em;
-  line-height: 1.2em;
+
   }
 }
 
@@ -269,6 +268,29 @@ p {
   }
 
 }
+
+
+@media screen and (max-width: 768px) {
+p {
+    font-size: 1.2em;
+  line-height: 1.6em;
+
+
+  }
+
+
+@media screen and (max-width: 568px) {
+p {
+    font-size: 1.2em;
+  line-height: 1.6em;
+
+
+  }
+
+}
+
+
+
 
 /* line 45, ../sass/_sub.scss */
 .clear {
