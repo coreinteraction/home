@@ -197,7 +197,7 @@ p {
 .left-col {
   float: left;
   width: 25%;
-  padding: 2%;
+  padding: 1.6%;
 
 }
 @media screen and (max-width: 768px) {
@@ -222,7 +222,7 @@ p {
   float: left;
   width: 50%;
   min-height: 100vh;
-  padding: 2%;
+  padding: 1.6%;
 
 }
 
