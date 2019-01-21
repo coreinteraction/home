@@ -37,6 +37,8 @@ body {
   body {
     font-size: 21px;
   }
+
+
 }
 
 @media screen and (max-width: 568px) {
@@ -131,6 +133,9 @@ p {
   #main {
     height: 100%;
   }
+
+
+
 }
 
 /* line 12, ../sass/_main.scss */
@@ -200,12 +205,16 @@ p {
     width: 100%;
     border-bottom: 1px solid black;
     padding: 5%;
+    font-size: 1.6em;
+  line-height: 1.2em;
   }
 }
 @media screen and (max-width: 568px) {
   /* line 10, ../sass/_sub.scss */
   .left-col {
     padding: 8%;
+    font-size: 1.6em;
+  line-height: 1.2em;
   }
 }
 
@@ -237,6 +246,28 @@ p {
   .right-col, .right-col2 {
     padding: 8%;
   }
+}
+
+
+
+@media screen and (max-width: 768px) {
+ h2 a {
+  color: black;
+  text-decoration: none;
+   border-bottom: 1.3px solid #000;
+
+  }
+
+
+@media screen and (max-width: 568px) {
+
+ h2 a {
+  color: black;
+  text-decoration: none;
+   border-bottom: 1.3px solid #000;
+
+  }
+
 }
 
 /* line 45, ../sass/_sub.scss */
