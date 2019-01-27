@@ -22,6 +22,7 @@ body {
   font-family: arial, sans-serif;
   font-size: 24px;
   color: black;
+    line-height: 1.3em;
 }
 
 
@@ -81,7 +82,7 @@ h1 {
 /* line 16, ../sass/_type.scss */
 h2 {
   font-size: 1.2em;
-  line-height: 1.6em;
+  line-height: 1.7em;
   font-weight: normal;
  margin-top: -0.3em;
 
@@ -146,45 +147,20 @@ p {
   width: 50%;
   padding: 2%;
 }
-@media screen and (max-width: 768px) {
-  /* line 12, ../sass/_main.scss */
-  .content-cell {
-    width: 100%;
-    height: auto;
-    border-bottom: 1px solid black;
-    padding: 5%;
-  }
-}
-@media screen and (max-width: 568px) {
-  /* line 12, ../sass/_main.scss */
-  .content-cell {
-    height: auto;
-    padding: 8%;
-  }
-}
+
 
 /* line 31, ../sass/_main.scss */
 .content-cell:nth-child(odd) {
   border-right: 1px solid black;
 }
-@media screen and (max-width: 768px) {
-  /* line 31, ../sass/_main.scss */
-  .content-cell:nth-child(odd) {
-    border-right: none;
-  }
-}
+
 
 /* line 39, ../sass/_main.scss */
 .content-cell:nth-child(-n+2) {
   border-bottom: 1px solid black;
 }
 
-@media screen and (max-width: 768px) {
-  /* line 44, ../sass/_main.scss */
-  .content-cell:last-child {
-    border-bottom: none;
-  }
-}
+
 
 /* line 4, ../sass/_sub.scss */
 #sub {
@@ -200,22 +176,7 @@ p {
   padding: 1.6%;
 
 }
-@media screen and (max-width: 768px) {
-  /* line 10, ../sass/_sub.scss */
-  .left-col {
-    width: 100%;
-    border-bottom: 1px solid black;
-    padding: 5%;
 
-  }
-}
-@media screen and (max-width: 568px) {
-  /* line 10, ../sass/_sub.scss */
-  .left-col {
-    padding: 8%;
-
-  }
-}
 
 /* line 26, ../sass/_sub.scss */
 .right-col, .right-col2 {
@@ -231,18 +192,24 @@ p {
 }
 
 
+
+
+
+
+
 @media screen and (max-width: 768px) {
-  /* line 26, ../sass/_sub.scss */
- .right-col, .right-col2 {
-    min-height: auto;
-    border-left: none;
+  /* line 12, ../sass/_main.scss */
+  .content-cell {
     width: 100%;
+    height: auto;
+    border-bottom: 1px solid black;
     padding: 5%;
   }
 }
 @media screen and (max-width: 568px) {
-  /* line 26, ../sass/_sub.scss */
-  .right-col, .right-col2 {
+  /* line 12, ../sass/_main.scss */
+  .content-cell {
+    height: auto;
     padding: 8%;
   }
 }
@@ -250,6 +217,63 @@ p {
 
 
 @media screen and (max-width: 768px) {
+  /* line 31, ../sass/_main.scss */
+  .content-cell:nth-child(odd) {
+    border-right: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  /* line 44, ../sass/_main.scss */
+  .content-cell:last-child {
+    border-bottom: none;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  /* line 10, ../sass/_sub.scss */
+  .left-col {
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 5%;
+    
+
+  }
+}
+@media screen and (max-width: 568px) {
+  /* line 10, ../sass/_sub.scss */
+  .left-col {
+    padding: 8%;
+
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  /* line 26, ../sass/_sub.scss */
+ .right-col, .right-col2 {
+    min-height: auto;
+    border-left: none;
+    width: 100%;
+    padding: 5%;
+      margin-top: 5%;
+  }
+}
+@media screen and (max-width: 568px) {
+  /* line 26, ../sass/_sub.scss */
+  .right-col, .right-col2 {
+    padding: 8%;
+      margin-top: 5%;
+  }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
  h2 a {
   color: black;
   text-decoration: none;
@@ -288,8 +312,6 @@ p {
   }
 
 }
-
-
 
 
 /* line 45, ../sass/_sub.scss */
