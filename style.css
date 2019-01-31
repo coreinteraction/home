@@ -26,6 +26,8 @@ body {
 }
 
 
+
+
 .contentright {
  width:100%;
  height: 100%;
@@ -101,9 +103,15 @@ h3 {
 
 /* line 27, ../sass/_type.scss */
 li {
-  font-size: 0.75em;
+  font-size: 1em;
   line-height: 1.3em;
 }
+
+ul {
+  padding-left: 1em;
+    list-style-type: circle;
+}
+
 
 /* line 32, ../sass/_type.scss */
 p {
