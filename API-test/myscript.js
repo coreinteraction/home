@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 
     $.ajax({
-        url: 'http://api.openweathermap.org/data/2.5/weather?id=' + istanbul_id + '&units=metric&APPID=be611e3081d65abcf9f2dead869ee338', //CHANGE THE URL TO YOUR API QUERY
+        url: 'http://api.openweathermap.org/data/2.5/weather?id=' + istanbul_id + '&units=imperial&APPID=be611e3081d65abcf9f2dead869ee338', //CHANGE THE URL TO YOUR API QUERY
         dataType: 'jsonp',
         success: function(results){
           console.log("results");
@@ -38,7 +38,7 @@ $(document).ready(function(){
     });
 
     $.ajax({
-        url: 'http://api.openweathermap.org/data/2.5/weather?id=' + roswell_id + '&units=metric&APPID=be611e3081d65abcf9f2dead869ee338', //CHANGE THE URL TO YOUR API QUERY
+        url: 'http://api.openweathermap.org/data/2.5/weather?id=' + roswell_id + '&units=imperial&APPID=be611e3081d65abcf9f2dead869ee338', //CHANGE THE URL TO YOUR API QUERY
         dataType: 'jsonp',
         success: function(results){
           console.log("results");
