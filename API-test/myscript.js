@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 
     $.ajax({
-        url: 'http://http://api.openweathermap.org/data/2.5/weather?id=745042&units=metric&APPID=be611e3081d65abcf9f2dead869ee338', //CHANGE THE URL TO YOUR API QUERY
+        url: 'http://api.openweathermap.org/data/2.5/weather?id=745042&units=metric&APPID=be611e3081d65abcf9f2dead869ee338', //CHANGE THE URL TO YOUR API QUERY
         dataType: 'jsonp',
         success: function(results){
             weathertext = results.weather[0].main;
