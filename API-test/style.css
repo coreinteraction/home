@@ -1,0 +1,15 @@
+.data {
+  color: blue;
+  font-size: 36px;
+  font-family: Georgia, serif;
+
+}
+
+.data p {
+
+}
+
+.data p span {
+  color: red;
+  font-style: italic;
+}
