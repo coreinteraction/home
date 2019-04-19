@@ -1,7 +1,7 @@
 //THESE ARE THE VARIABLES WE WILL USE
 var windspeed; //Wind speed. Unit Default: meter/sec, Metric: meter/sec, Imperial: miles/hour.
 var winddeg; //Wind direction, degrees (meteorological)
-var temp; //Temperature. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit. 
+var temp; //Temperature. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.
 var tempmin;
 var tempmax;
 var pressure; //Atmospheric pressure (on the sea level, if there is no sea_level or grnd_level data), hPa
@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 
     $.ajax({
-        url: 'http://http://api.openweathermap.org/data/2.5/weather?id=12345&units=metric&APPID=98765', //CHANGE THE URL TO YOUR API QUERY
+        url: 'http://http://api.openweathermap.org/data/2.5/weather?id=745042&units=metric&APPID=be611e3081d65abcf9f2dead869ee338', //CHANGE THE URL TO YOUR API QUERY
         dataType: 'jsonp',
         success: function(results){
             weathertext = results.weather[0].main;
@@ -33,12 +33,12 @@ $(document).ready(function(){
 
         }
     });
-    
+
 
     function myWeatherInterpretation(){
-        //THIS IS WHERE YOU CAN CUSTOMIZE YOUR PAGE'S FUNCTIONS    
-        
-        
+        //THIS IS WHERE YOU CAN CUSTOMIZE YOUR PAGE'S FUNCTIONS
+
+
         //JUST SEEING IF THE VALUES COME THROUGH
         $('p').append('windspeed: ' + windspeed);
         $('p').append('winddeg: ' + winddeg);
@@ -51,10 +51,10 @@ $(document).ready(function(){
         $('p').append('weatherdescription: ' + weatherdescription);
         $('p').append('cloudiness: ' + cloudiness);
 
-    
+
 
         //END OF MYWEATHERINTERPRETATION FUNCTION
-    }   
+    }
 
 
 });
